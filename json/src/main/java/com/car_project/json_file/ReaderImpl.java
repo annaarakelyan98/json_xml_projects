@@ -7,7 +7,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class ReaderImpl implements Reader {
-    public static final String PATH = "src/main/resources/car.json";
 
     @Override
     public Car reader(String path) {
